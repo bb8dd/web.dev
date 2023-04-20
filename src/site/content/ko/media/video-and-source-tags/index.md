@@ -100,15 +100,29 @@ tags:
 
 `src`가 손상되었거나 제공된 비디오 형식이 지원되지 않는 경우 포스터가 대체될 수도 있습니다. 포스터 이미지의 유일한 단점은 일부 대역폭을 소비하고 렌더링이 필요한 추가 파일 요청입니다. 자세한 내용은 [이미지를 효율적으로 인코딩](https://developer.chrome.com/docs/lighthouse/performance/uses-optimized-images/)을 참조하십시오.
 
-<div class="switcher">{% Compare 'worse' %}<figure data-float="left"> {% Img src="image/tcFciHGuF3MxnTr1y5ue01OGLBn2/R8VNeplKwajJhOuVkPDT.png", alt="대체 포스터가 없으면 동영상이 깨져 보입니다.", width="360", height="600" %}</figure>
+<div class="switcher">
+{% Compare 'worse' %}
+<figure>
+ {% Img src="image/tcFciHGuF3MxnTr1y5ue01OGLBn2/R8VNeplKwajJhOuVkPDT.png", alt="대체 포스터가 없으면 동영상이 깨져 보입니다.", width="360", height="600" %}
+</figure>
+
+{% CompareCaption %} 
+대체 포스터가 없으면 동영상이 깨져 보입니다. 
+{% endCompareCaption %}
+
+{% endCompare %}
+
+{% Compare 'better' %}
+<figure>
+  {% Img src="image/tcFciHGuF3MxnTr1y5ue01OGLBn2/rNhydHVGeL2P0sQ0je5k.png", alt="대체 포스터는 첫 번째 프레임이 캡처된 것처럼 보이게 합니다.", width="360", height="600" %}
+</figure>
+
+{% CompareCaption %}
+ 대체 포스터는 첫 번째 프레임이 캡처된 것처럼 보이게 합니다. 
+{% endCompareCaption %}
+
+{% endCompare %}
 </div>
-<p data-md-type="paragraph">{% CompareCaption %} 대체 포스터가 없으면 동영상이 깨져 보입니다. {% endCompareCaption %}</p>
-<p data-md-type="paragraph">{% endCompare %}</p>
-<p data-md-type="paragraph">{% Compare 'better' %}</p>
-<div data-md-type="block_html"><figure data-float="right">{% Img src="image/tcFciHGuF3MxnTr1y5ue01OGLBn2/rNhydHVGeL2P0sQ0je5k.png", alt="대체 포스터는 첫 번째 프레임이 캡처된 것처럼 보이게 합니다.", width="360", height="600" %}</figure></div>
-<p data-md-type="paragraph">{% CompareCaption %} 대체 포스터는 첫 번째 프레임이 캡처된 것처럼 보이게 합니다. {% endCompareCaption %}</p>
-<p data-md-type="paragraph">{% endCompare %}</p>
-<div data-md-type="block_html"></div>
 
 ### 동영상이 컨테이너를 넘지 않도록 합니다
 

@@ -75,7 +75,7 @@ module.exports = (collections) => {
     if (elements.length > 0) {
       date = elements.slice(-1).pop().data.date;
       const tempUpdated = elements.slice(0, 1).pop().data.date;
-      if (date !== tempUpdated) {
+      if (tempUpdated && date !== tempUpdated) {
         updated = tempUpdated;
       }
     }
@@ -93,16 +93,26 @@ module.exports = (collections) => {
       href,
       image,
       key,
+      bio: `i18n.authors.${key}.bio`,
       title: `i18n.authors.${key}.title`,
       url: href,
     };
 
     // If author has no posts, point to their Twitter
-    if (author.elements.length === 0 && author.twitter) {
-      author.href = `https://twitter.com/${author.twitter}`;
+    if (author.elements.length === 0) {
+      if (author.twitter) {
+        author.href = `https://twitter.com/${author.twitter}`;
+      } else if (author.homepage) {
+        author.href = author.homepage;
+      }
     }
 
-    if (author.elements.length > 0 || !collections || author.twitter) {
+    if (
+      author.elements.length > 0 ||
+      !collections ||
+      author.twitter ||
+      author.homepage
+    ) {
       authors[author.key] = author;
     }
   });

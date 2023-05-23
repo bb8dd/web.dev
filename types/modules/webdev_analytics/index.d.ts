@@ -16,15 +16,7 @@
 
 declare module 'webdev_analytics' {
   export declare const ids: {
-    UA: string;
-    GA4: string;
-  };
-  export declare const dimensions: {
-    SIGNED_IN: string;
-    MEASUREMENT_VERSION: string;
-    NAVIGATION_TYPE: string;
-    COLOR_SCHEME_PREFERENCE: string;
-    WEB_VITALS_DEBUG: string;
+    GTM: string;
   };
   export declare const version: number;
 }

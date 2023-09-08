@@ -1413,7 +1413,6 @@
   },
   "jlwagner": {
     "github": "malchata",
-    "twitter": "malchata",
     "linkedin": "https://www.linkedin.com/in/malchata/",
     "homepage": "https://jlwagner.net/",
     "country": "US",
@@ -1800,5 +1799,46 @@
   "ddworken": {
     "country": "US",
     "image": "image/udVScdcCFAdRjZwFdLk2jWAFQyr1/n7JbFJPZgqVm1n60t62o.jpeg"
+  },
+  "ramona": {
+    "country": "DE",
+    "image": "image/dPDCek3EhZgLQPGtEG3y0fTn4v82/JjZvG1rUMq9DRil4MnIT.jpeg",
+    "twitter": "leichteckig",
+    "github": "leichteckig",
+    "linkedin": "https://www.linkedin.com/in/ramona-schwering/",
+    "homepage": "https://www.ramona.codes/"
+  },
+  "mitchgalavan": {
+    "country": "US",
+    "image": "image/YLflGBAPWecgtKJLqCJHSzHqe2J2/FeU9BLJudtXgBy873ZVP.jpg",
+    "linkedin": "https://www.linkedin.com/in/mitchellgalavan/",
+    "twitter": "mitchgalavan"
+  },
+  "cjacinic": {
+    "country": "US",
+    "image": "image/YLflGBAPWecgtKJLqCJHSzHqe2J2/CJwGxU6Ml9Eoj2EI3j8W.png"
+  },
+  "silviaconvento": {
+    "country": "US",
+    "image": "image/YLflGBAPWecgtKJLqCJHSzHqe2J2/D7aLMO2nHDOmZ3xFctGX.jpg"
+  },
+  "yurikohirota": {
+    "country": "JP",
+    "image": "image/jL3OLOhcWUQDnR4XjewLBx4e3PC3/gWQBNNc7xafsHz7KBrE1.jpg",
+    "twitter": "yuriko_fuuu"
+  },
+  "thiernothiam": {
+    "country": "UK",
+    "image": "image/jL3OLOhcWUQDnR4XjewLBx4e3PC3/G39Wqf36XLYM27LOrexr.jpg",
+    "twitter": "localhost_droid",
+    "github": "thierhost",
+    "linkedin": "https://www.linkedin.com/in/thierno-thiam-9753489b/"
+  },
+  "guilhermems": {
+    "country": "BR",
+    "image": "image/jL3OLOhcWUQDnR4XjewLBx4e3PC3/WM20YjI0H9jhcAPlwzoZ.jpg",
+    "twitter": "mobtec",
+    "github": "gui-poa",
+    "linkedin": "https://www.linkedin.com/in/guilhermems/"
   }
 }

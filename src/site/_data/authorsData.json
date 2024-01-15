@@ -1469,7 +1469,8 @@
     "country": "US",
     "github": "heyawhite",
     "twitter": "heyawhite",
-    "image": "image/VbsHyyQopiec0718rMq2kTE1hke2/zTnfwJRcRiKepGLRlu7t.jpeg"
+    "homepage": "https://heyawhite.com",
+    "image": "image/VbsHyyQopiec0718rMq2kTE1hke2/Fg3QPnZnoZh2LbVOs8mK.jpg"
   },
   "svenmay": {
     "country": "DE",
@@ -1840,5 +1841,18 @@
     "twitter": "mobtec",
     "github": "gui-poa",
     "linkedin": "https://www.linkedin.com/in/guilhermems/"
+  },
+  "nandunair": {
+    "country": "US",
+    "image": "image/kheDArv5csY6rvQUJDbWRscckLr1/kUDOtUFzBKmIAhlLjefO.jpg",
+    "twitter": "_nairnm",
+    "github": "nairnandu",
+    "linkedin": "https://www.linkedin.com/in/nmnair/"
+  },
+  "markusbordihn": {
+    "country": "DE",
+    "image": "image/jL3OLOhcWUQDnR4XjewLBx4e3PC3/XQRAhPqZMiqUHeoteyuZ.jpg",
+    "github": "MarkusBordihn",
+    "linkedin": "https://www.linkedin.com/in/MarkusBordihn"
   }
 }
